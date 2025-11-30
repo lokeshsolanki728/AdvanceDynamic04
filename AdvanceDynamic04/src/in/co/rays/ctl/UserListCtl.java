@@ -60,7 +60,7 @@ public class UserListCtl extends HttpServlet {
 		if (op.equals("search")) {
 
 			pageNo = 1;
-
+// lokesh
 			String fname = req.getParameter("firstName");
 			String dob = req.getParameter("dob");
 
